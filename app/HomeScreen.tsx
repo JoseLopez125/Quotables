@@ -36,9 +36,16 @@ const HomeScreen: React.FC = () => {
   const navigation = useNavigation<NavigationProp<RootStackParamList>>();
 
   const [carouselItems, setCarouselItems] = useState([
-    { image: require('../assets/test_images/quote1.png') },
-    { image: require('../assets/test_images/quote2.png') },
-    { image: require('../assets/test_images/quote3.png') },
+    { image: require('../assets/test_images/Depressed1.png') },
+    { image: require('../assets/test_images/Depressed2.png') },
+    { image: require('../assets/test_images/Depressed3.png') },
+    { image: require('../assets/test_images/Depressed4.png') },
+    { image: require('../assets/test_images/Depressed5.png') },
+    { image: require('../assets/test_images/Depressed6.png') },
+    { image: require('../assets/test_images/Depressed7.png') },
+    { image: require('../assets/test_images/Depressed8.png') },
+    { image: require('../assets/test_images/Depressed9.png') },
+    { image: require('../assets/test_images/Depressed10.png') },
   ]);
 
   useEffect(() => {
