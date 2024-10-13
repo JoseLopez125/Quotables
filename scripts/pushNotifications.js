@@ -23,8 +23,8 @@ export async function schedulePushNotification(hour, minute) {
   
   await Notifications.scheduleNotificationAsync({
     content: {
-      title: "You've got mail! 📬",
-      body: "Here is the notification body",
+      title: "Read Your Quote of the Day!",
+      body: "Get a new quote for motivation",
       data: { data: "goes here", test: { test0: "more data" } },
     },
     trigger,
